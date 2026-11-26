@@ -2,11 +2,12 @@
 
 A collection of Python projects developed by **MAKx-code** to practise programming fundamentals, explore Python libraries, and build practical applications.
 
-This repository contains beginner-friendly projects covering console applications, mathematical visualisation, GUI development, and password generation.
+This repository contains beginner-friendly projects covering console applications, mathematical visualisation, GUI development, and secure password generation.
 
 ## Projects
 
 ### 1. Simple Calculator
+
 A command-line calculator that performs basic arithmetic operations.
 
 **Features**
@@ -19,19 +20,22 @@ A command-line calculator that performs basic arithmetic operations.
 **Technology:** Python
 
 ### 2. BMI Calculator
+
 A command-line application that calculates Body Mass Index using the user's weight and height.
 
 **Features**
 - Collects user details.
-- Calculates BMI.
-- Displays the calculated BMI and a weight category.
-- Handles invalid numeric input and zero height.
+- Calculates and displays BMI.
+- Displays a BMI weight category.
+- Handles invalid numeric input.
+- Rejects zero or negative weight and height.
 
 **Technology:** Python
 
-*Note: This is an educational calculator, not a medical assessment tool.*
+*Note: Uses adult BMI classification ranges for educational purposes. It is not a medical assessment tool.*
 
 ### 3. Snake Water Gun Game
+
 A command-line game where the player competes against the computer.
 
 **Features**
@@ -42,6 +46,7 @@ A command-line game where the player competes against the computer.
 **Technology:** Python, Random module
 
 ### 4. Neon Spiral Art
+
 A colourful geometric spiral generated using Python's Turtle graphics.
 
 **Features**
@@ -52,6 +57,7 @@ A colourful geometric spiral generated using Python's Turtle graphics.
 **Technology:** Python, Turtle
 
 ### 5. Graph Plotter
+
 A mathematical graph visualisation application.
 
 **Features**
@@ -64,6 +70,7 @@ A mathematical graph visualisation application.
 **Technology:** Python, NumPy, Matplotlib
 
 ### 6. Digital Clock
+
 A graphical digital clock that displays the current time and date.
 
 **Features**
@@ -75,7 +82,8 @@ A graphical digital clock that displays the current time and date.
 **Technology:** Python, Tkinter
 
 ### 7. Password Generator
-A password generator using Python's secure random generation module.
+
+A password generator using Python's cryptographically secure random generation module.
 
 **Features**
 - User-defined password length.
@@ -124,7 +132,7 @@ Install the external dependencies:
 pip install numpy matplotlib
 ```
 
-The other projects use Python's standard library.
+The remaining projects use Python's standard library.
 
 ## How to Run
 
@@ -140,25 +148,42 @@ Navigate into the repository:
 cd Python-Projects
 ```
 
-Run any project using Python. For example:
+Run the projects using Python:
 
+**Simple Calculator**
+```bash
+python SIMPLE_CALCULATOR.py
+```
+
+**BMI Calculator**
+```bash
+python BMI_CALCULATOR.py
+```
+
+**Snake Water Gun Game**
+```bash
+python "snake water game.py"
+```
+
+**Neon Spiral Art**
 ```bash
 python Neon-Spiral-Art/neon_spiral.py
 ```
 
+**Graph Plotter**
 ```bash
 python Graph-Plotter/graph_plotter.py
 ```
 
+**Digital Clock**
 ```bash
 python Digital-Clock/digital_clock.py
 ```
 
+**Password Generator**
 ```bash
 python Password-Generator/password_generator.py
 ```
-
-The original three projects can also be run directly from the repository root.
 
 ## Learning Objectives
 
